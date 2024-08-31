@@ -1,0 +1,336 @@
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url(./asset/Montserrat-VariableFont_wght.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url(./asset/Poppins-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Playfair', sans-serif;
+    src: url(./asset/PlayfairDisplaySC-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Bebas', sans-serif;
+    src: url(./asset/BebasNeue-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+html ,body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 5rem;
+    background: rgba(0, 0, 0, 0.35);
+    }
+
+nav .nav-left {
+    width: auto;
+    height: 100%;
+}
+
+nav .nav-right ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .nav-right ul li a {
+    padding: 0 1rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.content {
+    padding: 0 8rem;
+}
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(./asset/home.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.home-page::before {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.home-page p:first-of-type,.home-page p:last-of-type{
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home-page h2 {
+    font-size: 6rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.concert-page {
+    display: flex;
+}
+
+.concert-left,
+.concert-right{
+    width: 100%;
+    padding: 2rem;
+}
+
+.concert-right {
+    width: 40%;
+}
+
+.concert-title-top,.concert-title-bottom {
+    font-size: 4.5rem;
+    color: #0c1844;
+    text-align: right;
+    font-family: 'Bebas', sans-serif;
+}
+
+.concert-title-bottom {
+    color: #cda861;
+}
+
+.concert-left p {
+    color: #0c1844;
+    text-align: right;
+    font-family: 'Montserrat',sans-serif;
+    line-height: 1.5;
+}
+
+.concert-page h2 {
+    text-align: right;
+    
+}
+
+.concert-info {
+    display: flex;
+    justify-content: end;
+    font-family: 'Bebas', sans-serif;
+}
+
+.concert-date,.concert-location {
+    color: #000;
+    padding: 0 0 0 5rem;
+    margin: 0;
+}
+
+.seat-page {
+    display: flex;
+    color: #000;
+}
+
+.seat-left, .seat-right {
+    width: 100%;
+    padding: 2rem;
+}
+
+.seat-title-top,.seat-title-bottom {
+    font-size: 4.5rem;
+    color: #0c1844;
+    text-align: right;
+    font-family: 'Bebas', sans-serif;
+}
+
+.seat-title-bottom {
+    color: #cda861;
+}
+
+.seat-item {
+    padding: 1rem 0;
+}
+
+.seat-info {
+    display: flex;
+    width: 100%;
+}
+
+.seat-description {
+    width: 70%;
+    margin-left: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+.seat-item h2{
+    font-family: 'Bebas', sans-serif;
+}
+
+.seat-item p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.seat-legend h2 {
+    font-family: 'Bebas', sans-serif;
+}
+
+.merch-page {
+    color: #000;
+    display: flex;
+    flex-direction: column;
+}
+
+.merch-page h2 {
+    font-family: 'Bebas', sans-serif;
+}
+
+.merch-page p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.merch-top,.merch-bottom {
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+}
+
+.merch-left,.merch-right {
+    width: 50%;
+}
+
+.merch-title-top,.merch-title-bottom {
+    font-size: 4.5rem;
+    color: #0c1844;
+    text-align: right;
+    font-family: 'Bebas', sans-serif;
+}
+
+.merch-title-bottom {
+    color: #cda861;
+}
+
+.merch-left {
+    display: flex;
+}
+
+.merch-right {
+    text-align: right;
+}
+
+.merch-item {
+    text-align: center;
+}
+
+.merch-info {
+    position: relative;
+    top: 2rem;
+}
+
+.merch-info h2 {
+    color: #cda861;
+    font-family: 'Bebas', sans-serif;
+}
+
+.merch-right p {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+.merch-bottom {
+    padding-top: 6rem;
+    width: 100%;
+    align-items: center;
+    color: #0c1844;
+}
+
+.merch-more-item {
+    padding: 1rem;
+    text-align: center;
+}
+
+.galery-page {
+    display: flex;
+    color: #000;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galery-page h2 {
+    font-size: 4rem;
+    font-family: 'Bebas', sans-serif;
+}
+
+.galery-page p {
+    padding: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background: #0c1844;
+    color: #cda861;
+}
+
+.footer-top, .footer-bottom{
+    display: flex;
+    color: #cda861;
+    margin: 0 2rem;
+    justify-content: center;
+}
+
+.de-grandeur, .contact, .about, .partnership, .archive {
+    padding: 0 2rem;
+    font-family: 'Bebas', sans-serif;
+}
+
+.de-grandeur p, .contact p, .about p, .partnership p, .archive p {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-icon {
+    display: flex;
+    width: 1rem;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon {
+    margin: 0 1rem;
+    width: auto;
+    height: auto;
+}
+
+.social-icon img {
+    background: #fff;
+    padding: 0.5rem;
+    border-radius: 100%;
+    width: 26px;
+    height: auto;
+}
+
+.footer-copyright {
+    text-align: center;
+}
+

@@ -31,12 +31,12 @@
                 </div>
                 <div class="ticket-location">
                         <h3>Place : </h3>
-                     <p>Gelora BUng Karno Stadium</p>
+                     <p>Gelora Bung Karno Stadium</p>
                 </div>
             </div>
             <div class="ticket-button">
                    <a href="#"><button class="button">Buy Bronze Ticket</button></a>
-                </div>
+            </div>
         </div>
     </div>
 </div>

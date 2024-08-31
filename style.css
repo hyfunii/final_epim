@@ -191,7 +191,9 @@ nav .nav-right ul li a {
     font-family: 'Bebas', sans-serif;
 }
 
- 
+ @media screen  {
+    
+ }
  
  .ticket-page{
     text-align: center;
@@ -393,5 +395,9 @@ footer {
 
 .footer-copyright {
     text-align: center;
+}
+
+@media screen { 
+    
 }
 
